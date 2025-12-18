@@ -29,7 +29,7 @@ const FlipRow = ({ item }) => {
   return (
     <div className="perspective">
       <div
-        className="relative w-full h-62.5
+        className="relative w-full min-h-62.5
         transition-transform duration-700
         transform-style-preserve-3d
         hover:rotate-y-180"
